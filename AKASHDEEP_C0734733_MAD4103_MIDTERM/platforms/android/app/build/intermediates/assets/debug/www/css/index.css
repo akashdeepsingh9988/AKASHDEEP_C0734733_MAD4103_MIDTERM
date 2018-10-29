@@ -28,6 +28,14 @@ body {
     width:100%;
 }
 
+.centered
+{
+    text-align: center;
+        margin-top: 100px;
+
+    
+}
+
 .total
 {
     font-size: 18px;
@@ -60,10 +68,19 @@ body {
 
 input[type = text]
 {
-    width: 50%;
-    height: 15%;
+    width: 220px;
+    height: 20px;
     padding: 10px;
     margin: 10px;
+}
+input[type=radio]
+{
+    font-size: 20px;
+    padding: 2px;
+}
+button{
+    width:220px;
+    height:50px;
 }
 
 .confirmation
@@ -73,7 +90,7 @@ input[type = text]
 }
 .margin-top
 {
-    margin: 50px;
+    margin: auto;
 }
 
 h1 {

@@ -12,6 +12,7 @@
     </head>
     <body>
 
+        <div class = "centered">
         <div class = "margin-top" id ="top-div">
             <img src ="img/ryde-logo.png">
             <br>
@@ -20,10 +21,15 @@
                 <br>
                 To<input type = "text" name  ="to" placeholder="To" id ="To" required="true">
                 <BR>
-                <input type="radio" name="type" value="pool"> Ryde Pool<br>
+                <input type="radio" name="type" checked="true" value="pool"> Ryde Pool
                 <input type="radio" name="type"  value="direct">Ryde Direct<br>
                <BR>
                 <button id = "sbutton"> FIND MY RIDE </button>
+                
+                <br>
+        <br>
+        <br>
+        </div>
         </div>
         
         
@@ -39,6 +45,14 @@
             Service Fee : <span id = "service-fee"></span><br>
             <span class = "total">Total :</span> <span id = "total" class="total"></span>
         </div>
+        
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

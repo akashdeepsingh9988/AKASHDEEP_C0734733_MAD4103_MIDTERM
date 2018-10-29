@@ -111,7 +111,7 @@ document.getElementById("sbutton").addEventListener("click", function () {
     } else if (to == "")
     {
         alert("Enter Destination");
-    } else if (type == "")
+    } else if (type != "direct" || type  != "pool")
     {
         alert("please select ride type");
     } else
