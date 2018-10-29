@@ -58,6 +58,14 @@ body {
     }
 }
 
+input[type = text]
+{
+    width: 50%;
+    height: 15%;
+    padding: 10px;
+    margin: 10px;
+}
+
 .confirmation
 {
     display: none;
